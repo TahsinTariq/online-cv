@@ -96,7 +96,7 @@ p {
         padding: 30px;
     }
     .container-block2 {
-        padding: 20px;
+        padding: 30px;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -280,11 +280,6 @@ p {
         height: 12px;
         background: $smoky-white;
         // background: lighten($theme-color, 15%);
-    }
-    .level-bar-side {
-        height: 12px;
-        // background: $theme-color;
-        background: $smoky-white;
     }
 }
 
