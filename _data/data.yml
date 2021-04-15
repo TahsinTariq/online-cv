@@ -8,7 +8,7 @@ sidebar:
     skillz: True #Show skills in sidebar if True and in main doc if False
     # Profile information
     name: Tahsin Tariq Banna
-    tagline: 3rd year Student
+    tagline: Undergraduate Student (3rd year)
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -54,7 +54,7 @@ career-profile:
     title: Career Profile
     summary: |
       I am a curious, hard-working student with experience in multiple programming languages and development suites. I'm used to
-      working efficiently and managing my time very well
+      working efficiently and managing my time very well.
 education:
     # - degree: MSc in Computer Science
     #   university: University of London
@@ -68,7 +68,7 @@ education:
     #       - Bullet point
     #       - Bullet point
     - degree: BSc in Robotics and Mechatronics Engineering
-      university: University of Dhaka
+      university: University of Dhaka, Bangladesh
       time: 2018 - Present
       details: |
         Courses:
@@ -77,7 +77,7 @@ education:
           - Artificial Intelligence
           - Medical Robotics
     - degree: Higher School Certificate
-      college: Bangladesh Air Force Shaheen College, Dhaka
+      college: Bangladesh Air Force Shaheen College, Dhaka, Bangladesh
       time: 2016 - 2017
       grade: '5.00'
 experiences:
@@ -194,10 +194,10 @@ skills:
         level: 80%
       
       - name: C
-        level: 80%
+        level: 70%
 
       - name: <i class="fab fa-rust"></i> Rust
-        level: 50%
+        level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
