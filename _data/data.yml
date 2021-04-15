@@ -129,7 +129,8 @@ projects:
         tagline: "A* search on an Eight-puzzle game in both Python and JavaScript"
 
       - title: Procedural terrain generation
-        time: 
+        time: "2020"
+        link: https://tahsintariq.github.io/terrain
         tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
 
       - title: Tessellation Generator add-on for Blender
