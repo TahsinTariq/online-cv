@@ -95,6 +95,9 @@ p {
     .container-block {
         padding: 30px;
     }
+    .container-block2 {
+        padding: 20px;
+    }
     .container-block-title {
         text-transform: uppercase;
         font-size: 16px;
@@ -248,14 +251,42 @@ p {
     }
     .level-bar {
         height: 12px;
+        // background: $theme-color;
         background: $smoky-white;
     }
     .level-bar-inner {
         height: 12px;
+        // background: $smoky-white;
         background: lighten($theme-color, 15%);
     }
 }
 
+.skillset_side {
+    .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .level-title {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .level-bar {
+        height: 12px;
+        background: $theme-color;
+        // background: $smoky-white;
+    }
+    .level-bar-inner {
+        height: 12px;
+        background: $smoky-white;
+        // background: lighten($theme-color, 15%);
+    }
+    .level-bar-side {
+        height: 12px;
+        // background: $theme-color;
+        background: $smoky-white;
+    }
+}
 
 
 

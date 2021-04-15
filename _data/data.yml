@@ -5,11 +5,11 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
-
+    skillz: True #Show skills in sidebar if True and in main doc if False
     # Profile information
     name: Tahsin Tariq Banna
-    tagline: Full Stack Developer
-    avatar: os_pop.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: 3rd year Student
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: tahsinbanna@gmail.com
@@ -33,23 +33,28 @@ sidebar:
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Limited Proficiency
 
     interests:
+      - item: Reading
+      - item: Animation
       - item: Generative Art
-        link: hhttps://www.instagram.com/tahsin_tariq/
-
+        link: https://www.instagram.com/tahsin_tariq/
+        link: https://youtu.be/fJ76-qEW5jY
+      - item: Web development
+        link: tahsintariq.github.io
+      - item: Data Visualization
+      - item: Game development
+      - item: Open Source Contributions
       - item: Non-photorealistic animation
-        link:
+        link: https://youtu.be/r9JzMWXTGwQ
 
-      - item: Linux admin
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      I am a curious hard-working student with experience in multiple languages and development suites. I'm used to
-      working efficiently and manage my time very well
+      I am a curious, hard-working student with experience in multiple programming languages and development suites. I'm used to
+      working efficiently and managing my time very well
 education:
     # - degree: MSc in Computer Science
     #   university: University of London
@@ -66,16 +71,19 @@ education:
       university: University of Dhaka
       time: 2018 - Present
       details: |
-      Courses:
+        Courses:
           - Control System Design and Automation
           - Human Robot Interaction
           - Artificial Intelligence
           - Medical Robotics
-          
+    - degree: Higher School Certificate
+      college: Bangladesh Air Force Shaheen College, Dhaka
+      time: 2016 - 2017
+      grade: '5.00'
 experiences:
     - role: Research Assistant
       time: 2020 - Present
-      # company: Startup Hubs, San Francisco
+      company: University of Dhaka
       details: |
         Working under Dr. Shamim Ahmed Dewan on a privately funded project on low-cost endoscopy machine
         equipped with Artificial Intelligence.
@@ -83,7 +91,7 @@ experiences:
 
     - role: Research Assistant
       time: 2020 - present
-      # company: Google, London
+      company: University of Dhaka
       details: |
         Working under Dr. Shamim Ahmed Dewan on a project funded by The Ministry of Science and Technology of The Government of People’s 
         Republic of Bangladesh on automation in agriculture aided by machine learning.
@@ -93,80 +101,103 @@ experiences:
       time: 03/2021 - present
       company: Bangladesh Robot Olympiad
       details: |
-        Volunteering as a frontend developer for BDRO (Bangladesh Robot Olympiad)
-          - Bullet point
-          - Bullet point
+        Volunteering as a frontend developer for BDRO (Bangladesh Robot Olympiad) IT team.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Wearable sensors with flex detection
         # link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        time: '2018'
+        tagline: A sensor made from scratch that can be worn like a glove to detect finger movement
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Real-time Floyed-Steinberg Dithering
+        time: '2018'
+        tagline: Implementation of the dithering algorithm for stylized video in real time 
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: A Study on Triangulation
+        time: '2019'
+        link: https://tahsintariq.github.io/triangulation
+        tagline: "Various implementations of Delaunay Triangulation"
+      - title: Implementation of A* search
+        time: '2020'
+        link: https://tahsintariq.github.io/8puzzle
+        tagline: "A* search on an Eight-puzzle game in both Python and JavaScript"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Procedural terrain generation
+        time: 
+        tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Tessellation Generator add-on for Blender
+        time: 2020 - present
+        tagline: Still a work in progress. This addon automates the generation of 17 [wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_group)
 
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Achievements
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Luna Samsuddoha - Janata Bank scholarship"
+        time: "2018 - 2020"
+        authors: For securing 2nd merit position
+      - title: Champion - DACSU Science and Technology Olympiad
+        time: '2020'
+        authors: Robotics & Artificial Intelligence category
+      - title: Hacktoberfest
+        time: '2020'
+        authors: Successful participation
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills # &amp; Proficiency
 
     toolset:
-      - name: <i class="fab fa-python"></i> Python & Django
+      - name: <i class="fab fa-python"></i> Python
         level: 98%
 
-      - name: <i class="fab fa-js-square"></i> Javascript & jQuery
+      - name: <i class="fas fa-cube"></i> SolidWorks
         level: 98%
-
-      - name: <i class="fab fa-java"></i> Java
-        level: 98%
-
+      - name: <i class="fas fa-blender"></i> Blender
+        level: 97%
+      - name: <i class="fas fa-file-code"></i> LaTeX
+        level: 97%
       - name: <i class="fab fa-html5"></i> HTML5 & <i class="fab fa-css3-alt"></i> CSS
         level: 95%
+      - name: <i class="fab fa-linux"></i> Linux
+        level: 90%
+      - name: <i class="fab fa-js-square"></i> Javascript
+        level: 90%
 
-      - name: <i class="far fa-gem"></i> Ruby on Rails
-        level: 85%
+      - name: <i class="fab fa-java"></i> Java
+        level: 80%
+      
+      - name: C
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: <i class="fab fa-rust"></i> Rust
+        level: 50%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
