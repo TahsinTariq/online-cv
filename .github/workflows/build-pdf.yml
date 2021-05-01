@@ -1,0 +1,20 @@
+name: build-pdf
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      # - uses: actions/setup-node@v1
+      - run: https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
+      - run: sudo apt install xfonts-75dpi
+      - run: sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+      - run: wkhtmltopdf --viewport-size 1100x2500 --page-width 220 --page-height 420 --margin-bottom 0 --margin-left 0 --margin-right 0 --margin-top 2 tahsintariq.github.io/online-cv/ cv.pdf
+      - name: release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./cv.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
