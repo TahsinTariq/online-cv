@@ -5,7 +5,9 @@
 > This theme is designed by [Xiaoying Riley](http://themes.3rdwavemedia.com/). 
 Forked from [here](https://github.com/sharu725/online-cv/fork). Checkout the live demo [here](https://webjeda.com/online-cv/).
 
-convert this to a pdf using [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)
+Convert this to a pdf using [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf).
+
+<!-- Download the latest release using : wget https://github.com/TahsinTariq/online-cv/releases/latest/download/cv.pdf -->
 <!--
 Further information: 
   * https://wkhtmltopdf.org/
