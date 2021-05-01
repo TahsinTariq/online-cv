@@ -14,7 +14,7 @@ jobs:
       - name: release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./cv.pdf
+          files: cv.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
