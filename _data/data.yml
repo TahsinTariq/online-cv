@@ -39,10 +39,9 @@ sidebar:
       - item: Reading
       - item: Animation
       - item: Generative Art
-        link: https://www.instagram.com/tahsin_tariq/
         link: https://youtu.be/fJ76-qEW5jY
       - item: Web development
-        link: tahsintariq.github.io
+        link: https://tahsintariq.github.io
       - item: Data Visualization
       - item: Game development
       - item: Open Source Contributions
@@ -175,30 +174,48 @@ skills:
     title: Skills # &amp; Proficiency
 
     toolset:
-      - name: <i class="fab fa-python"></i> Python
+      - name: Python
+        icon: <i class="fab fa-python"></i>
         level: 98%
 
-      - name: <i class="fas fa-cube"></i> SolidWorks
+      - name: SolidWorks
+        icon: <i class="fas fa-cube"></i>
         level: 98%
-      - name: <i class="fas fa-blender"></i> Blender
+
+      - name: Blender
+        icon: <i class="fas fa-blender"></i>
         level: 97%
-      - name: <i class="fas fa-file-code"></i> LaTeX
+
+      - name: LaTeX
+        icon: <i class="fas fa-file-code"></i>
         level: 97%
-      - name: <i class="fab fa-html5"></i> HTML5 & <i class="fab fa-css3-alt"></i> CSS
+
+      - name: HTML5 & 
+        icon: <i class="fab fa-html5"></i>
+        name2: CSS
+        icon2: <i class="fab fa-css3-alt"></i>
         level: 95%
-      - name: <i class="fab fa-linux"></i> Linux
-        level: 90%
-      - name: <i class="fab fa-js-square"></i> Javascript
+
+      - name: Linux
+        icon: <i class="fab fa-linux"></i>
         level: 90%
 
-      - name: <i class="fab fa-java"></i> Java
+      - name: Javascript
+        icon: <i class="fab fa-js-square"></i>
+        level: 90%
+
+      - name: Java
+        icon: <i class="fab fa-java"></i>
         level: 80%
       
       - name: C
         level: 70%
 
-      - name: <i class="fab fa-rust"></i> Rust
-        level: 60%
+      - name: Rust
+        icon: <i class="fab fa-rust"></i>
+        level: 65%
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+      <a href="https://github.com/TahsinTariq/online-cv/releases/latest/download/cv.pdf"> <i class="fas fa-download"></i> Download this as a PDF</a>
+
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -3,11 +3,11 @@
 <div class="skills-section container-block2">
 
   <h2 class="container-block-title">
-    <span class="fa-stack fa-xs">
-      <!-- <i class="fas fa-circle fa-stack-1x"></i> -->
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
+    <!-- <span class="fa-stack fa-xs"> -->
+    <!-- <i class="fas fa-circle fa-stack-1x"></i> -->
+    <!-- <i class="fas fa-wrench fa-stack-1x fa-inverse"></i> -->
+    <!-- </span> -->
+    <i class="fas fa-tools"></i> {{ skills.title }}
   </h2>
 
   <div class="skillset_side">
@@ -15,7 +15,8 @@
     {% for skill in skills.toolset %}
     <div class="item">
 
-      <div class="list-unstyled"><b>{{ skill.name }}</b></div>
+      <div class="list-unstyled"><b>{{ skill.icon }}</b> {{ skill.name }} <b>{{ skill.icon2 }}</b> {{ skill.name2 }}
+      </div>
 
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
