@@ -147,11 +147,11 @@ projects:
         tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
 
       - title: Tessellation Generator add-on for Blender
-        time: 2021 - present
+        time: "2021 - present"
         tagline: Still a work in progress. This addon automates the generation of 17 [wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_group)
 
       - title: Q-learning simulation in a grid-world
-        time: 2021 - present
+        time: "2021" 
         tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
 
 
