@@ -10,7 +10,7 @@ jobs:
       - run: sudo apt install xfonts-75dpi
       - run: sudo apt install xfonts-base
       - run: sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
-      - run: wkhtmltopdf --viewport-size 1100x2500 --page-width 220 --page-height 420 --margin-bottom 0 --margin-left 0 --margin-right 0 --margin-top 0 tahsintariq.github.io/online-cv/ cv.pdf
+      - run: wkhtmltopdf --viewport-size 1100x2500 --page-width 220 --page-height 500 --margin-bottom 0 --margin-left 0 --margin-right 0 --margin-top 0 tahsintariq.github.io/online-cv/ cv.pdf
       - name: release
         uses: softprops/action-gh-release@v1
         with:
