@@ -8,7 +8,7 @@ sidebar:
     skillz: True #Show skills in sidebar if True and in main doc if False
     # Profile information
     name: Tahsin Tariq Banna
-    tagline: Undergraduate Student (3rd year)
+    tagline: Undergraduate Student (4th year)
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -74,7 +74,7 @@ education:
           - Control System Design and Automation
           - Human Robot Interaction
           - Artificial Intelligence
-          - Medical Robotics
+          - Advanced Machine Learning
     - degree: Higher School Certificate
       college: Bangladesh Air Force Shaheen College, Dhaka, Bangladesh
       time: 2016 - 2017
@@ -96,8 +96,22 @@ experiences:
         Republic of Bangladesh on automation in agriculture aided by machine learning.
       contact: Dr. Shamim Ahmed Dewan - <a href='sadewan@gmail.com'>sadewan@gmail.com</a>
 
+    - role: Research Assistant
+      time: 2022 - present
+      company: University of Dhaka
+      details: |
+        Working under Dr. Sejuti Rahman on a project on building a fully autonomous inteligent hospital assistance robot.
+      contact: Dr. Sejuti Rahman - <a href='sejuti@gmail.com'>sejuti@gmail.com</a>
+
+    - role: Pop_Rep!
+      time: 2021 - present
+      company: system76
+      details: |
+        I am the regional representetive for system76, the company behind the operating system Pop_OS! and many other products.
+      # contact: Dr. Sejuti Rahman - <a href='sejuti@gmail.com'>sejuti@gmail.com</a>
+
     - role: Volunteer
-      time: 03/2021 - present
+      time: 2021 - present
       company: Bangladesh Robot Olympiad
       details: |
         Volunteering as a frontend developer for BDRO (Bangladesh Robot Olympiad) IT team.
@@ -133,8 +147,13 @@ projects:
         tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
 
       - title: Tessellation Generator add-on for Blender
-        time: 2020 - present
+        time: 2021 - present
         tagline: Still a work in progress. This addon automates the generation of 17 [wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_group)
+
+      - title: Q-learning simulation in a grid-world
+        time: 2021 - present
+        tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
+
 
 # publications:
 #     title: Publications
@@ -166,9 +185,12 @@ publications:
       - title: Champion - DACSU Science and Technology Olympiad
         time: '2020'
         authors: Robotics & Artificial Intelligence category
-      - title: Hacktoberfest
+      - title: Hacktoberfest Participation
         time: '2020'
-        authors: Successful participation
+      - title: Research Scholarship, IFIC Bank Trust Fund 
+        time: '2022'
+        # authors: Robotics & Artificial Intelligence category
+        # authors: Successful participation
 
 skills:
     title: Skills # &amp; Proficiency
@@ -208,12 +230,12 @@ skills:
         icon: <i class="fab fa-java"></i>
         level: 80%
       
-      - name: C
-        level: 70%
-
       - name: Rust
         icon: <i class="fab fa-rust"></i>
-        level: 65%
+        level: 70%
+
+      - name: C
+        level: 60%
 
 footer: >
       <a href="https://github.com/TahsinTariq/online-cv/releases/latest/download/cv.pdf"> <i class="fas fa-download"></i> Download this as a PDF</a>
