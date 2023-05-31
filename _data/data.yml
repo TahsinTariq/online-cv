@@ -8,7 +8,7 @@ sidebar:
     skillz: True #Show skills in sidebar if True and in main doc if False
     # Profile information
     name: Tahsin Tariq Banna
-    tagline: Undergraduate Student (4th year)
+    tagline: Masters Student (1st year)
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -66,9 +66,17 @@ education:
     #     pretium quis, sem.
     #       - Bullet point
     #       - Bullet point
+
+    - degree: MSc in Robotics and Mechatronics Engineering
+      university: University of Dhaka, Bangladesh
+      time: 2023 - present
+      details: |
+        Courses:
+          - Computer Vision
+          - Bio Robotics
     - degree: BSc in Robotics and Mechatronics Engineering
       university: University of Dhaka, Bangladesh
-      time: 2018 - Present
+      time: 2018 - 2021
       details: |
         Courses:
           - Control System Design and Automation
@@ -81,7 +89,7 @@ education:
       grade: '5.00'
 experiences:
     - role: Research Assistant
-      time: 2020 - Present
+      time: 2020 - 2022
       company: University of Dhaka
       details: |
         Working under Dr. Shamim Ahmed Dewan on a privately funded project on low-cost endoscopy machine
@@ -89,7 +97,7 @@ experiences:
       contact: Dr. Shamim Ahmed Dewan - <a href='sadewan@gmail.com'>sadewan@gmail.com</a>
 
     - role: Research Assistant
-      time: 2020 - present
+      time: 2020 - 2023
       company: University of Dhaka
       details: |
         Working under Dr. Shamim Ahmed Dewan on a project funded by The Ministry of Science and Technology of The Government of People’s 
@@ -123,10 +131,10 @@ projects:
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Wearable sensors with flex detection
-        # link: "#hook"
-        time: '2018'
-        tagline: A sensor made from scratch that can be worn like a glove to detect finger movement
+#       - title: Wearable sensors with flex detection
+#         # link: "#hook"
+#         time: '2018'
+#         tagline: A sensor made from scratch that can be worn like a glove to detect finger movement
 
       - title: Real-time Floyed-Steinberg Dithering
         time: '2018'
@@ -136,36 +144,37 @@ projects:
         time: '2019'
         link: https://tahsintariq.github.io/triangulation
         tagline: "Various implementations of Delaunay Triangulation"
-      - title: Implementation of A* search
-        time: '2020'
-        link: https://tahsintariq.github.io/8puzzle
-        tagline: "A* search on an Eight-puzzle game in both Python and JavaScript"
+#       - title: Implementation of A* search
+#         time: '2020'
+#         link: https://tahsintariq.github.io/8puzzle
+#         tagline: "A* search on an Eight-puzzle game in both Python and JavaScript"
 
       - title: Procedural terrain generation
         time: "2020"
         link: https://tahsintariq.github.io/terrain
         tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
 
-      - title: Tessellation Generator add-on for Blender
-        time: "2021 - present"
-        tagline: Still a work in progress. This addon automates the generation of 17 [wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_group)
+#       - title: Tessellation Generator add-on for Blender
+#         time: "2021 - present"
+#         tagline: Still a work in progress. This addon automates the generation of 17 [wallpaper groups](https://en.wikipedia.org/wiki/Wallpaper_group)
 
-      - title: Q-learning simulation in a grid-world
-        time: "2021" 
-        tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
+#       - title: Q-learning simulation in a grid-world
+#         time: "2021" 
+#         tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
+      - title: Deep Learning-Driven Automated Diagnosis of Neurodegenerative Diseases Using Image Memorability
+        time: "2022 - 2023"
 
-
-# publications:
-#     title: Publications
+publications:
+    title: Publications
 #     intro: |
 #       You can list your publications in this section. Lorem ipsum dolor sit
 #       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
+    papers:
+      - title: GEMM: A Graph Embedded Model for Memorability Prediction
+        link: "https://github.com/TahsinTariq/GEMM"
+        authors: Tahsin Tariq Banna, Swakshar Deb, Sejuti Rahman and Shafin Rahman
+        conference: International Joint Conference on Neural Networks, 2023
 
 #       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
 #         link: "#"
