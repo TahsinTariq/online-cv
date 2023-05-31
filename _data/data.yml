@@ -47,7 +47,10 @@ sidebar:
       - item: Open Source Contributions
       - item: Non-photorealistic animation
         link: https://youtu.be/r9JzMWXTGwQ
-
+      - item: Ricing Linux Distros
+        link: https://www.reddit.com/r/unixporn
+      - item: Computer Vision
+      - item: Computational Neuroscience
 
 career-profile:
     title: Career Profile
@@ -162,7 +165,7 @@ projects:
 #         time: "2021" 
 #         tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
       - title: Deep Learning-Driven Automated Diagnosis of Neurodegenerative Diseases Using Image Memorability
-        time: "2022 - 2023"
+        time: "2023"
 
 publications:
     title: Publications
