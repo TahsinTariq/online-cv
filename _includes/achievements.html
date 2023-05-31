@@ -1,0 +1,38 @@
+{% assign achievements = site.data.data.achievements %}
+{% if achievements %}
+<section class="section publications-section">
+
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ achievements.title }}
+    </h2>
+
+    {% if achievements.intro %}
+    <div class="intro">
+        {{ achievements.intro | markdownify }}
+    </div>
+    <!--//intro-->
+    {% endif %}
+
+    {% for achievement in achievements.papers %}
+    <div class="item">
+        <div class="upper-row">
+            {% if achievement.link %}
+            <li><a href="{{ achievement.link }}">{{ achievement.title | markdownify}}</a></li>
+            {% else %}
+            <li>{{ achievement.title }}</li>
+            {% endif %}
+            <div class="time">{{ achievement.time }}</div>
+        </div>
+        <div class="publication-authors">{{ achievement.authors }}</div>
+        <div class="publication-conference">{{ achievement.conference }}</div>
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
