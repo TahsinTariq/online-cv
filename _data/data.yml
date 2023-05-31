@@ -165,7 +165,7 @@ projects:
 #         time: "2021" 
 #         tagline: Implementation of a robust Q-learning algorithm to solve any instance of a grid-world environment.
       - title: Deep Learning-Driven Automated Diagnosis of Neurodegenerative Diseases Using Image Memorability
-        time: "2023"
+        # time: "2023"
 
 publications:
     title: Publications
