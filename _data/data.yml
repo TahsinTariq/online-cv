@@ -8,7 +8,7 @@ sidebar:
     skillz: True #Show skills in sidebar if True and in main doc if False
     # Profile information
     name: Tahsin Tariq Banna
-    tagline: Masters Student (1st year)
+    tagline: Masters Student (2nd year)
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -156,6 +156,10 @@ projects:
         time: "2020"
         link: https://tahsintariq.github.io/terrain
         tagline: "Demonstration of traversable procedural terrain generation using a perlin noise field"
+      - title: "Conway's Game of Life"
+        time: "2021"
+        link: https://tahsintariq.github.io/rust-wasm/game-of-life/
+        tagline: "A variant of cellular automata using Rust and Webassembly"
 
 #       - title: Tessellation Generator add-on for Blender
 #         time: "2021 - present"
@@ -178,6 +182,9 @@ publications:
         link: "https://github.com/TahsinTariq/GEMM"
         authors: Tahsin Tariq Banna, Swakshar Deb, Sejuti Rahman and Shafin Rahman
         conference: International Joint Conference on Neural Networks, 2023
+      - title: "Enhancing Agricultural Automation through Weather Invariant Soil Parameter Prediction Using Machine Learning"
+        authors: Monisha Mushtary Uttsha, A.K.M. Nadimul Haque, Tahsin Tariq Banna, Shamim Ahmed Deowan, Md. Ariful Islam and Hafiz Md. Hasan Babu
+        conference: "Heliyon 10, no. 7 (2024)"
 
 #       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
 #         link: "#"
@@ -200,7 +207,9 @@ achievements:
       - title: Hacktoberfest Participation
         time: '2020'
       - title: Research Scholarship, IFIC Bank Trust Fund 
-        time: '2022'
+        time: '2022, 2023'
+      - title: "National Science & Technology (NST) Fellowship for Excellent Master's Thesis"
+        time: "2023 - 2024"
         # authors: Robotics & Artificial Intelligence category
         # authors: Successful participation
 
